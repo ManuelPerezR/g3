@@ -1,0 +1,6 @@
+#reuests
+
+curl -X POST -H "Content-Type: application/json" -d '{"text":"algo"}' localhost:3000/api/notes
+# borrar una notes
+curl -X DELETE localhost:3000/api/notes/617714c4b06a124be5f17796
+# modificar una nota
